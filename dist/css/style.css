@@ -1,0 +1,89 @@
+h3 {
+  color: #393c54;
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+}
+
+.pesquisa form {
+  width: 100%;
+  display: flex;
+}
+
+.pesquisa--input {
+  max-width: 80%;
+  margin-right: 15px;
+}
+
+.lista-resultado span {
+  font-size: .8em;
+}
+
+.lista-resultado--heroi {
+  display: flex;
+}
+
+.lista-resultado--heroi__descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.lista-resultado--heroi img,
+.lista-resultado--heroi h3,
+.lista-resultado--heroi p {
+  cursor: pointer;
+  opacity; .9;
+}
+
+.lista-resultado--heroi__descricao button {
+  background-color: #356cb6;
+  border-color: #356cb6;
+}
+
+.lista-resultado--mais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista-resultado--mais button, .lista-resultado--mais button:hover {
+  background-color: #f2bc0f;
+  border-color: #f2bc0f;
+}
+
+.lista-resultado--mais button:hover {
+  opacity: .9;
+}
+
+.personagem span {
+  cursor: pointer;
+}
+
+.personagem span:hover {
+  text-decoration: underline;
+}
+
+.loader {
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.loader-bg {
+  opacity: 0.4;
+}
+
+.loader img {
+  height: 80px;
+}
+
+.rodape span,
+.rodape a {
+  font-size: .85em;
+}
